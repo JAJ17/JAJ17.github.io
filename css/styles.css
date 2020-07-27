@@ -1,58 +1,103 @@
 body{
-font-family:Consolas;
-color:rgb(163, 166, 154);
-margin:auto;
-width:"50%";
-text-align:center;
-}
-
-#techlearned table{
-margin:auto;
-border-collapse:collapse;
-}
-
-#techlearned th, #techlearned td{
-text-align:center;
-border:double;
-}
-
-#techlearned{
-float:left;
-width:25%;
-text-align:center;
-}
-
-#techwanted{
-padding-left:25px;
-width:25%;
-text-align:center;
-}
-
-#container{
-/*width:39%;*/
-content:"";
-display: table;
-clear: both;
-background-color:rgb(64, 64, 64);
-}
-
-header{
-font-family:Calibri;
-font-size:110%;
-color:blue;
-text-align:"right";
-}
-
-#header_p{
-text-shadow:2px 2px 5px red;
+    font-family:Consolas;
+    background-color: rgb(68, 79, 111);
+    color:rgb(163, 170, 150);
 }
 
 h2{
-font-family:Calibri;
+    text-align: initial;
+    font-family:Consolas;
+    text-shadow:2px 2px 5px red;
 }
 
+#megacontainer{
+    position: relative;
+    top: 80px;
+    padding-left: 15%;
+}
+
+#headercontainer{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    background-color:inherit;
+    max-height: 50px;      
+}
+
+header{
+    font-family:Calibri;
+    font-size:100%;
+    text-align:left;
+    text-shadow:2px 2px 5px red;
+    max-height: 34px;
+}
+
+header h1{
+    margin-top: 5px;
+    padding-left: 15%;
+  
+}
+
+#container{
+    position: relative;
+    max-width: 45%;
+    top: 0px;
+    left: 200px;
+    border: limegreen 1px solid;
+    
+}
+
+nav{
+    float: left;
+    min-width: 100px;
+    border: 1px solid;
+    position: fixed;
+}
+
+nav a{
+    color: red;
+}
+
+#techlearned table{
+    display: inline;
+    border-collapse:collapse;
+}
+
+#techlearned th, #techlearned td{
+    text-align:center;
+    border:double;
+}
+
+#techlearned{
+    display: inline;
+    margin-left: 10px;
+    padding-left: 10px;
+    position: relative;
+    text-align:center;
+}
+
+#techwanted{
+    display: inline;
+    box-sizing: border-box;
+    padding-left:10px;
+    text-align:center;
+}
+
+#media{
+    position: relative;
+    left: 200px;
+    max-width: 32%;
+    border: 1px solid;
+}
+
+/*video{
+    position: inherit;
+    width: 500px;
+}*/
+
 footer{
-position:bottom;
+    position:bottom;
 }
 
 
