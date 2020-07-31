@@ -14,34 +14,43 @@ h2{
     position: relative;
     top: 50px;
     padding: 0 12%;
+    min-width: 600px;
 }
 
 #header-container{
     position: fixed;
-    padding-bottom: 8px;
-    border-bottom: 1px solid whitesmoke;   
     top: 0px;
     width: 100%;
     z-index: 1;
     background-color:inherit;
-    max-height: 50px;   
+    max-height: 54px;   
 }
 
 header{
+    margin: 0px 12%;
     font-family:Calibri;
     font-size:100%;
     text-align:left;
     text-shadow:2px 2px 5px red;
-    max-height: 34px;
+    max-height: 54px;
 }
 
 header h1{
     margin-top: 5px;
-    padding-left: 21.5%;
+    padding-left: 12.5%;
   
 }
 
-#header_p{
+header div{ 
+    padding-bottom: 8px;  
+    border: 1px solid whitesmoke;   
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top: none;
+    height: 34px;
+}
+
+p{
     text-align: center;
 }
 
@@ -52,25 +61,21 @@ header h1{
     margin-right: 25%;
     top: 0px;
     border: 1px solid whitesmoke;
-    overflow: auto; 
+    border-radius: 20px;
+    overflow: none; 
 }
 
 #left-container{
     position: absolute;
     width: 21.5%;  
-}
-
-#right-container{
-    position: absolute;
-    right: 0px;
-    width: 25%;
+    
 }
 
 nav{
-    position: fixed;
+    position: absolute;
     float: left;
-    top: 70px;
-    padding-left: 200px; 
+    top: 10px;
+    padding:0px 25%; 
 }
 
 nav a{
@@ -78,8 +83,24 @@ nav a{
     text-decoration: none;
 }
 
+#left-container ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#left-container li{
+    padding: 0px 0px 10px 0px;
+}
+
 #techlearned th, #techlearned td{
     border:double;
+}
+
+#right-container{
+    position: absolute;
+    right: 0px;
+    width: 25%;
 }
 
 #techlearned{
@@ -107,11 +128,18 @@ nav a{
     position: absolute;
     width: 60%;
     margin: 0px 12%;
-
 }
 
-#media{
-    
+audio{
+    width: 60%;
+    padding: 0 20%;
+}
+
+video{
+    border: 1px solid whitesmoke;
+    width: 90%;
+    margin: 0 5%;
+    padding-bottom: 2px;
 }
 
 footer{
