@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body{
     font-family:Consolas;
     background-color: rgb(68, 79, 111);
@@ -11,6 +15,7 @@ h2{
 }
 
 #mega-container{
+    display: flex;
     position: relative;
     top: 50px;
     padding: 0 12%;
@@ -22,12 +27,11 @@ h2{
     width: 100%;
     z-index: 1;
     background-color:inherit;
-    max-height: 54px;   
+      
 }
 
 header{
-    margin: 0px 12%;
-    padding-bottom: 8px;  
+    margin: 0px 12%; 
     font-family:Calibri;
     font-size:100%;
     text-align:left;
@@ -36,7 +40,7 @@ header{
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
     border-top: none;
-    height: 34px;
+    height: 42px; 
 }
 
 header h1{
@@ -50,7 +54,7 @@ p{
 }
 
 #container{
-    position: relative;
+ 
     width: 655.5px;
     margin-left: 28%;
     margin-right: 28%;
@@ -61,13 +65,13 @@ p{
 }
 
 #left-container{
-    position: absolute;
+    position: fixed;
     left: 12%;
     width: 21.5%;  
 }
 
 nav{
-    position: fixed;
+    
     height: 300px;
     margin: 0px 2% 0px 8%;
     padding: 10px 20px 0px;
