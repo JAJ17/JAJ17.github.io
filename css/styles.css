@@ -32,6 +32,7 @@ h2{
 }
 
 header{
+    
     margin: 0px 14% 0px 12%; 
     font-family:Calibri;
     font-size:100%;
@@ -149,13 +150,27 @@ video{
     
 }*/
 
+/*@media (max-width:1600px){
+   header{
+        margin: 0px 1% 0px 0%; 
+    }   
+}*/
+
+@media (max-width:1408.2px){
+
+}
+
 @media (max-width:930px){
     nav{
         position: static;
     }
+
+    #nav-container{
+        padding-right:0px;
+    }   
 }
 
-@media (max-width:605px){
+@media (max-width:768px){
     #techwanted{
         height: 660px;
     }
